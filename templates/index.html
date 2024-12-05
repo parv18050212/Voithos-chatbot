@@ -19,7 +19,7 @@
 
             <!-- User Input -->
             <div class="input-container">
-                <input type="text" id="prompt" placeholder="Enter your prompt here..." class="input-box">
+                <input type="text" id="prompt" placeholder="Enter your query here..." class="input-box">
                 <button onclick="sendPrompt()" class="submit-button">Submit</button>
             </div>
             
@@ -79,6 +79,7 @@
             chatBox.innerHTML += `<div class="model-message">${welcomeMessage}</div>`;
             chatBox.scrollTop = chatBox.scrollHeight;
         };
+
     </script>
 
 </body>
